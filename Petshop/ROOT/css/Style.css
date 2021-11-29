@@ -1,0 +1,329 @@
+/*****settinges general****/
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  font-family: 'Roboto', sans-serif;
+}
+
+footer{
+  font-family: 'Roboto', sans-serif;
+}
+
+/******header*******/
+header {
+  width: 100%;
+}
+
+.divUno {
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  color: #f3f3f3;
+  font-family: roboto;
+}
+
+.spanheader {
+  margin-left: 7%;
+}
+
+.divDos {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  background-color: #f0a83e;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.ulheader {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.liheader {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #e7ecec;
+  color: white;
+}
+
+select {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  width: 250px;
+  color: #ffffff;
+  width: 100px;
+}
+
+/******banner******/
+
+.fotoprincipal {
+  display: flex;
+  background-image: url(../img/foto.png);
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 5%;
+  height: 80vh;
+}
+
+.childBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tituloBanner {
+  display: flex;
+  font-size: 40px;
+  height: 45px;
+  background-color: #f3f3f3;
+}
+
+.botonBanner {
+  background-color: #f0a83e;
+  border-color: #f0a83e;
+  width: 130px;
+  height: 40px;
+  color: #f3f3f3;
+  border-radius: 6px;
+  border-style: solid;
+}
+
+/******titulo de productos******/
+
+.divTres {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.titulodivTres {
+  margin: 0px;
+  color: #3C2313;
+}
+
+.divCuatro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 25%;
+  color: #666666;
+}
+
+.divCinco {
+  display: flex;
+  justify-content: center;
+}
+
+/******cards de productos******/
+
+.divSeisCards {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 15%;
+  padding-top: 2%;
+  padding-left: 15%;
+}
+
+.divCardDos {
+  background-color: #fbfaf6;
+}
+
+.divTextCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.textCardUno {
+  margin: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #3c2313;
+}
+
+.textCardDos {
+  margin: 0px;
+  font-size: 15px;
+  color: #f0a83e;
+}
+
+/******contacto*****/
+
+.divSieteContacto {
+  padding-top: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #3C2313;
+}
+
+#formContacto > div > input {
+  margin: 5px;
+  background-color: #3c2313;
+  border-radius: 15px;
+  color: #ffffff;
+  width: 340px;
+  height: 40px;
+  border-style: solid;
+  border-color: #3c2313;
+}
+
+.divOchoBoton {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+
+.buttonContactoR {
+  background-color: #8a8787;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #8a8787;
+  width: 110px;
+  height: 34px;
+  margin-right: 10px;
+}
+
+.buttonContactoE {
+  background-color: #f0a83e;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #f0a83e;
+  width: 110px;
+  height: 34px;
+}
+
+/******suscripcion*****/
+
+.divOchoSuscripcion {
+  background-color: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 35px;
+
+}
+
+.divOchoA {
+  display: flex;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.buttonSuscripcion {
+  background-color: #3c2313;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #3c2313;
+  height: 34px;
+  color: #ffffff;
+  font-size: 12px;
+  width: 100px;
+}
+
+.correoSuscripcion {
+  width: 271px;
+  height: 40px;
+  color: #A0A0A0;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #FFFFFF;
+}
+
+.imgcorreo {
+  height: 50px;
+  align-items: center;
+  margin-right: 8px;
+}
+
+/*****localidad******/
+
+.divNueve {
+  display: flex;
+  background-color: #3C2313;
+}
+
+.divNueveUno {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.divNueveDos {
+  display: flex;
+  padding-right: 7%;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.divIcons {
+  display: flex;
+}
+
+.divIconsCenter {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.divTextIcons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4%;
+}
+
+.mainTextIcon{
+  font-size: 20px;
+  font-weight:bold;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.secondTextIcon{
+  margin: 0px;
+  font-size: 12px;
+  color: #8A8787;
+}
+
+.divFooter {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #f3f3f3;
+  font-family: roboto;
+}
